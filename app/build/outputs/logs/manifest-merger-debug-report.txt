@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:2:1-52:12
+	xmlns:android
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:3:11-34
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_SMS
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:8:5-83
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:9:5-86
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:9:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:10:5-83
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:11:5-94
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:11:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:12:5-91
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:13:22-78
+application
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:15:5-50:19
+MERGED from [com.android.support:appcompat-v7:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:17:9-43
+	android:theme
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.nb.mysafe.activity.SplashActivity
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:21:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:23:17-68
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.nb.mysafe.activity.HomeActivity
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:28:9-58
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:28:19-56
+activity#com.nb.mysafe.activity.CallNumInfoActivity
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:29:9-30:20
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:29:19-63
+activity#com.nb.mysafe.activity.AToolActivity
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:31:19-57
+activity#com.nb.mysafe.activity.SelectAddresActivity_ATool
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:32:9-82
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:32:19-70
+activity#com.nb.mysafe.activity.AppManagerActivity
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:33:9-74
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:33:19-62
+activity#com.nb.mysafe.activity.LockAppActivity
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:34:19-59
+activity#com.nb.mysafe.activity.EnCodeActivity
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:35:9-70
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:35:19-58
+service#com.nb.mysafe.service.BlackNumService
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:38:9-68
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:38:18-57
+service#com.nb.mysafe.service.QueryPhoneAddressService
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:39:9-77
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:39:18-66
+receiver#com.nb.mysafe.widget.MyWidget
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:41:9-49:20
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:41:19-50
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:42:13-45:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:43:17-83
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:43:25-81
+meta-data#android.appwidget.provider
+ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:46:13-48:53
+	android:resource
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:48:17-51
+	android:name
+		ADDED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml:47:17-58
+uses-sdk
+INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Administrator\Mysafe\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:23:9-75
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.1.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:22:13-58
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] D:\Administrator\Mysafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:23:13-66

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        style="@style/textView_title"
+        android:text="添加黑名单"/>
+    <EditText
+        android:id="@+id/et_addBlackNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入要干掉的手机号码"
+        android:textColor="#0d0000"
+        android:textColorHint="#0d0000"/>
+    <RadioGroup
+        android:id="@+id/rg_alertDialog_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话拦截"
+            android:textColor="#0d0000"/>
+        <RadioButton
+            android:id="@+id/rb_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="短信拦截"
+            android:textColor="#0d0000"/>
+        <RadioButton
+            android:id="@+id/rb_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部拦截"
+            android:textColor="#0d0000"/>
+    </RadioGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_alertDialog_add_ok"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="确认"/>
+    <Button
+        android:id="@+id/btn_alertDialog_add_nook"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="取消"/>
+</LinearLayout>
+</LinearLayout>

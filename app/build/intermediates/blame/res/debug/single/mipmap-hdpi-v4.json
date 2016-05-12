@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Administrator\\Mysafe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Administrator\\Mysafe\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Administrator\\Mysafe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\bg_launcher.jpg",
+        "source": "D:\\Administrator\\Mysafe\\app\\src\\main\\res\\mipmap-hdpi\\bg_launcher.jpg"
+    },
+    {
+        "merged": "D:\\Administrator\\Mysafe\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\launcher.png",
+        "source": "D:\\Administrator\\Mysafe\\app\\src\\main\\res\\mipmap-hdpi\\launcher.png"
+    }
+]

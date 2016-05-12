@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nb.mysafe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.nb.mysafe.activity.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nb.mysafe.activity.HomeActivity" />
+        <activity android:name="com.nb.mysafe.activity.CallNumInfoActivity" >
+        </activity>
+        <activity android:name="com.nb.mysafe.activity.AToolActivity" />
+        <activity android:name="com.nb.mysafe.activity.SelectAddresActivity_ATool" />
+        <activity android:name="com.nb.mysafe.activity.AppManagerActivity" />
+        <activity android:name="com.nb.mysafe.activity.LockAppActivity" />
+        <activity android:name="com.nb.mysafe.activity.EnCodeActivity" />
+
+        <service android:name="com.nb.mysafe.service.BlackNumService" />
+        <service android:name="com.nb.mysafe.service.QueryPhoneAddressService" />
+
+        <receiver android:name="com.nb.mysafe.widget.MyWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget" />
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
