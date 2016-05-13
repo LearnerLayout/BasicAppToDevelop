@@ -4,9 +4,6 @@
 
 ![图灵社区](http://ww4.sinaimg.cn/mw690/e75a115bgw1f3rrbzv1m8g209v0diqv7.gif)
 
-插入视频代码：<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0">
-
-
 
 |#|语法|效果|
 |---|---|----
@@ -18,4 +15,10 @@
 ```
 [foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
+
+
+
+
+
+<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0">
 
